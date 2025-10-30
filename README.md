@@ -24,6 +24,19 @@ Our stakeholders include:
 - Report Generation
 ---
 
+## System Flow
+
+```mermaid
+flowchart TD
+  HomePage --> Login/Register
+  Login/Register -->|Role-Based| Dashboard
+  StudentDashboard --> SubmitFeedback
+  StudentDashboard --> ViewReports
+  Admin --> CreateFeedback
+  Admin --> ManageUsers
+  Admin --> ViewAnalytics
+```
+---
 ## Technologies Used
 
 <p align="left">
@@ -37,22 +50,7 @@ Our stakeholders include:
 </p>
 
 ---
-## Check Website
+ ## Check Website
 🔗 [Live Demo](https://feedbackportal.kjsieit.in/)
 
 ---
-
-## System Flow
-
-```mermaid
-flowchart TD
-  HomePage --> Login/Register
-  Login/Register -->|Role-Based| Dashboard
-  StudentDashboard --> SubmitFeedback
-  StudentDashboard --> ViewReports
-  Admin --> CreateFeedback
-  Admin --> ManageUsers
-  Admin --> ViewAnalytics
-```
-
- 
