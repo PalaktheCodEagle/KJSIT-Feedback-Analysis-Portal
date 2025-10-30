@@ -8,38 +8,26 @@ Integrated Power BI for automated report generation and insightful data visualiz
 
 ---
 
-## 🛠️ Features
+## Features
 
-- 🔐 **User Authentication**  
-  Secure registration and login for all stakeholders.
-
-- 📝 **Feedback Submission**  
-  Stakeholders can view and submit feedback on their dashboard. Feedback is customized based on user roles.
-
-- 🧑‍💼 **Admin Controls**  
+- User Authentication  
+- Feedback Submission
+- Admin Controls
   - Create/edit feedback forms  
   - Add questions/options (including image uploads)  
   - View submission reports and analysis  
   - Manage stakeholder accounts
 
-- 📊 **Analytics Dashboard**  
-  Dynamic Power BI integration for analyzing feedback based on:
-  - Academic Year
-  - Department
-  - Division
-  - Year of Study
-
-- 🧾 **Report Generation**  
-  Download reports in PDF/Excel format for record-keeping and evaluation.
-
+- Analytics Dashboard using Power BI
+- Report Generation
 ---
 
-## 👨‍💻 Technologies Used
+## Technologies Used
 
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
-    <img src="https://skillicons.dev/icons?i=powerbi" />
+    <img src="[https://skillicons.dev/icons?i=powerbi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)" />
     <img src="https://skillicons.dev/icons?i=php,mysql" />
   </a>
 </p>
