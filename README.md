@@ -25,14 +25,14 @@ Integrated Power BI for automated report generation and insightful data visualiz
 ## Technologies Used
 
 <p align="left">
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="auto" height="40" /> </a> &nbsp;
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="auto" height="40" /> </a> &nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" width="auto" height="40" /> </a> &nbsp;
-  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" width="auto" height="40" /> </a> &nbsp;
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="auto" height="40" /> </a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="auto" height="40" /> </a> 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" width="auto" height="40" /> </a>
+  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" width="auto" height="40" /> </a>> &nbsp;
 
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" width="auto" height="40" /> </a> &nbsp;
-<a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white" width="auto" height="40" /> </a> &nbsp; 
-<a href="https://www.php.net/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" width="auto" height="40" /> </a> &nbsp; 
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" width="auto" height="40" /> </a>
+<a href="https://www.microsoft.com/en-us/power-platform/products/power-bi" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white" width="auto" height="40" /> </a>
+<a href="https://www.php.net/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" width="auto" height="40" /> </a>
 </p>
 
 ---
@@ -43,28 +43,12 @@ Integrated Power BI for automated report generation and insightful data visualiz
 
 ## System Flow
 
-HomePage
-   ↓
-Login / Register
-   ↓
-(Role-Based Access)
-   ↓
-Dashboard
-   ├── Submit Feedback
-   └── View Reports
-
-Admin
-   ├── Create Feedback
-   ├── Manage Users
-   └── View Analytics
-
-
 ```mermaid
 flowchart TD
   HomePage --> Login/Register
   Login/Register -->|Role-Based| Dashboard
-  Dashboard --> SubmitFeedback
-  Dashboard --> ViewReports
+  Student Dashboard --> SubmitFeedback
+  Student Dashboard --> ViewReports
   Admin --> CreateFeedback
   Admin --> ManageUsers
   Admin --> ViewAnalytics
