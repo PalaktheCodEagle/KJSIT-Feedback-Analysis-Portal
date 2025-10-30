@@ -41,7 +41,23 @@ Integrated Power BI for automated report generation and insightful data visualiz
 
 ---
 
-## 🔄 System Flow
+## System Flow
+
+HomePage
+   ↓
+Login / Register
+   ↓
+(Role-Based Access)
+   ↓
+Dashboard
+   ├── Submit Feedback
+   └── View Reports
+
+Admin
+   ├── Create Feedback
+   ├── Manage Users
+   └── View Analytics
+
 
 ```mermaid
 flowchart TD
