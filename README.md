@@ -12,12 +12,7 @@ Integrated Power BI for automated report generation and insightful data visualiz
 
 - User Authentication  
 - Feedback Submission
-- Admin Controls
-  - Create/edit feedback forms  
-  - Add questions/options (including image uploads)  
-  - View submission reports and analysis  
-  - Manage stakeholder accounts
-
+- Admin Controls -> Create/edit feedback forms, Add questions/options (including image uploads), View submission reports and analysis, Manage stakeholder accounts.
 - Analytics Dashboard using Power BI
 - Report Generation
 ---
@@ -47,8 +42,8 @@ Integrated Power BI for automated report generation and insightful data visualiz
 flowchart TD
   HomePage --> Login/Register
   Login/Register -->|Role-Based| Dashboard
-  Student Dashboard --> SubmitFeedback
-  Student Dashboard --> ViewReports
+  StudentDashboard --> SubmitFeedback
+  StudentDashboard --> ViewReports
   Admin --> CreateFeedback
   Admin --> ManageUsers
   Admin --> ViewAnalytics
