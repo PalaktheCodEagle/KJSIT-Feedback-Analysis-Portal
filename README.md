@@ -1,11 +1,10 @@
 
-# 📊 KJSIT's Stakeholders Feedback Analysis Portal
+# KJSIT's Stakeholders Feedback Analysis Portal
 
-## 🔍 Overview
+## Overview
 
-KJSIT’s Stakeholders Feedback Analysis Portal is a centralized, web-based platform built to streamline the feedback process for stakeholders such as students, faculty, alumni, employees, and parents. Developed to support institutional accreditation processes (NBA and NAAC), this portal enables efficient collection, visualization, and analysis of stakeholder feedback using data visualization tools like **Power BI**.
-
-🔗 [Live Demo](https://feedbackportal.kjsieit.in/)
+A Feedback Analysis Portal developed for K.J. Somaiya Institute of Technology (KJSIT) to collect and analyze feedback from key stakeholders - including students, faculty, parents, alumni, employers, and administrators. The system streamlines the feedback process and supports institutional accreditation from NBA and NAAC.
+Integrated Power BI for automated report generation and insightful data visualization.
 
 ---
 
@@ -37,13 +36,17 @@ KJSIT’s Stakeholders Feedback Analysis Portal is a centralized, web-based plat
 
 ## 👨‍💻 Technologies Used
 
-| Technology        | Purpose                                  |
-|-------------------|-------------------------------------------|
-| **PHP**           | Backend development                      |
-| **MySQL**         | Database management                      |
-| **HTML/CSS/JS**   | Frontend development                     |
-| **Power BI**      | Data visualization and analytics         |
-| **Bootstrap**     | Responsive design and UI components      |
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
+    <img src="https://skillicons.dev/icons?i=powerbi" />
+    <img src="https://skillicons.dev/icons?i=php,mysql" />
+  </a>
+</p>
+
+---
+## Check Website
+🔗 [Live Demo](https://feedbackportal.kjsieit.in/)
 
 ---
 
@@ -62,47 +65,13 @@ flowchart TD
 
 ---
 
-## 👥 Stakeholders
+## Stakeholders
 
-- 🎓 Students  
-- 👨‍🏫 Faculty  
-- 🧑‍💼 Employees  
-- 🧑‍🎓 Alumni  
-- 👪 Parents  
-- 🛠️ Admins
-
----
-
-## 🧪 Achievements
-
-- ✅ Deployed on KJSIT’s live server  
-- 📈 1267 students registered and submitted feedback  
-- 🧾 Feedback collected for:
-  - Student Feedback on Curriculum  
-  - Student Satisfaction Survey  
-  - Program Exit Survey  
-
----
-
-## 🧠 Future Scope
-
-- Role-based access for academic peers  
-- Feedback tracking over time  
-- Notification system for unsubmitted feedback  
-- Enhanced Power BI dashboards
-
----
-
-## 📚 References
-
-- [Power BI Documentation](https://learn.microsoft.com/en-us/training/powerplatform/power-bi)  
-- [PHP Basics - Codecademy](https://www.codecademy.com/learn/learn-php)  
-- [MySQL Docs](https://dev.mysql.com/doc/refman/8.0/en/)  
-
----
-
-## 👨‍💻 Authors
-
-- Kapil Sunil Bhatia
-- Dakshita Sanjay Kolte  
-- Palak Piyush Desai  
+- Students  
+-  Faculty  
+-  Employees  
+-  Alumni  
+-  Parents  
+-  Admin
+-  
+ 
